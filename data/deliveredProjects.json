@@ -1,0 +1,350 @@
+[
+  {
+    "id": "del-1",
+    "slug": "clinicpro-medical-management-system",
+    "type": "delivered",
+    "title": "ClinicPro – Medical Management & Billing System",
+    "description": "Flask-based medical store and clinic management system with inventory, billing, and reporting.",
+    "clientIndustry": "Healthcare & Pharmacy",
+    "status": "In Progress",
+    "overview": "A single-server medical management application combining inventory control, billing automation, due tracking, and reporting with Windows desktop packaging support.",
+    "clientType": "Medical Store / Clinic Owner",
+    "finalFeatures": [
+      "Role-based authentication (Admin & Employee)",
+      "Medicine inventory with expiry and low-stock alerts",
+      "Multi-item billing with payment tracking",
+      "Customer-specific pricing memory",
+      "Invoice PDF export",
+      "Daily and monthly sales reporting",
+      "Windows EXE/MSI packaging support"
+    ],
+    "technologies": [
+      "Flask",
+      "Python",
+      "SQLAlchemy",
+      "SQLite",
+      "Tailwind CSS"
+    ],
+    "projectDuration": "10 weeks",
+    "deliveryTimeline": [
+      "Requirement Analysis (2 weeks)",
+      "Core Development (6 weeks)",
+      "Testing & Desktop Packaging (2 weeks)"
+    ],
+    "challengesAndSolutions": [
+      "Challenge: Preventing stock inconsistencies during billing. Solution: Real-time stock deduction and validation rules.",
+      "Challenge: Offline-capable deployment. Solution: SQLite-backed architecture with EXE/MSI packaging."
+    ],
+    "clientFeedback": "Billing accuracy improved and manual stock tracking was completely eliminated.",
+    "screenshots": [
+      {
+        "id": "clinicpro-medical-management-system-shot-1",
+        "title": "Billing Interface",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "clinicpro-medical-management-system-shot-2",
+        "title": "Inventory Management Panel",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "clinicpro-medical-management-system-shot-3",
+        "title": "Sales Reports Dashboard",
+        "image": "/screenshots/sample-3.svg"
+      },
+      {
+        "id": "clinicpro-medical-management-system-shot-4",
+        "title": "Invoice PDF View",
+        "image": "/screenshots/sample-4.svg"
+      }
+    ],
+    "startDate": "2025-11-19",
+    "endDate": "2026-01-28"
+  },
+  {
+    "id": "del-2",
+    "slug": "e-kharidari-ecommerce-marketplace",
+    "type": "delivered",
+    "title": "e-Kharidari – Full-Stack E-Commerce Marketplace",
+    "description": "Full-stack marketplace platform with JWT authentication, cart synchronization, and Razorpay payment integration.",
+    "clientIndustry": "E-Commerce & Retail",
+    "status": "In Progress",
+    "overview": "A scalable marketplace-style web application built with Django REST Framework and React, enabling user onboarding, product catalog browsing, cart management, secure checkout, and order lifecycle tracking.",
+    "clientType": "Online Retail Startup",
+    "finalFeatures": [
+      "Custom user model with email/mobile login + OTP verification",
+      "JWT authentication with refresh rotation",
+      "Product catalog with variants, ratings, reviews, wishlist",
+      "Persistent cart synchronization",
+      "Razorpay payment integration (create & verify)",
+      "Order lifecycle tracking and cancellation",
+      "Address management and GST validation"
+    ],
+    "technologies": [
+      "Django REST Framework",
+      "React",
+      "Vite",
+      "SQLite",
+      "Razorpay API"
+    ],
+    "projectDuration": "14 weeks",
+    "deliveryTimeline": [
+      "Architecture Design (3 weeks)",
+      "Backend API Development (6 weeks)",
+      "Frontend Integration (3 weeks)",
+      "Testing & Deployment Setup (2 weeks)"
+    ],
+    "challengesAndSolutions": [
+      "Challenge: Secure token-based authentication flow. Solution: SimpleJWT with refresh token rotation and Axios interceptors.",
+      "Challenge: Payment verification integrity. Solution: Server-side Razorpay signature verification workflow."
+    ],
+    "clientFeedback": "The platform provided a smooth shopping experience and secure checkout flow for our customers.",
+    "screenshots": [
+      {
+        "id": "e-kharidari-ecommerce-marketplace-shot-1",
+        "title": "Homepage & Product Listing",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "e-kharidari-ecommerce-marketplace-shot-2",
+        "title": "Product Detail Page",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "e-kharidari-ecommerce-marketplace-shot-3",
+        "title": "Cart & Checkout",
+        "image": "/screenshots/sample-3.svg"
+      },
+      {
+        "id": "e-kharidari-ecommerce-marketplace-shot-4",
+        "title": "Order History Dashboard",
+        "image": "/screenshots/sample-4.svg"
+      }
+    ],
+    "startDate": "2025-10-30",
+    "endDate": "2026-02-05"
+  },
+  {
+    "id": "del-3",
+    "slug": "mediserve-ops-dashboard",
+    "type": "delivered",
+    "title": "MediServe Ops Dashboard",
+    "description": "Operational dashboard delivered for clinic chain management and scheduling.",
+    "clientIndustry": "Healthcare",
+    "status": "In Progress",
+    "overview": "A role-based operations platform built for multi-clinic appointment control, billing insights, and staff utilization reporting.",
+    "clientType": "Mid-size Clinic Network",
+    "finalFeatures": [
+      "Appointment and slot management",
+      "Billing performance overview",
+      "Role-based operational dashboards",
+      "Automated daily summary exports"
+    ],
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "projectDuration": "14 weeks",
+    "deliveryTimeline": [
+      "Discovery (2 weeks)",
+      "Development (9 weeks)",
+      "QA & UAT (3 weeks)"
+    ],
+    "challengesAndSolutions": [
+      "Challenge: Fragmented scheduling data across branches. Solution: Centralized scheduling engine and branch-level access controls.",
+      "Challenge: Slow reporting cycles. Solution: Precomputed analytics widgets for daily KPI visibility."
+    ],
+    "clientFeedback": "The platform unified our branch operations and gave leadership real-time visibility for the first time.",
+    "screenshots": [
+      {
+        "id": "mediserve-ops-dashboard-shot-1",
+        "title": "Branch Dashboard",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "mediserve-ops-dashboard-shot-2",
+        "title": "Scheduling Board",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "mediserve-ops-dashboard-shot-3",
+        "title": "Billing Insights",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "startDate": "2025-08-12",
+    "endDate": "2025-11-18"
+  },
+  {
+    "id": "del-4",
+    "slug": "builderpro-resource-portal",
+    "type": "delivered",
+    "title": "BuilderPro Resource Portal",
+    "description": "Resource planning and progress tracking portal for construction project teams.",
+    "clientIndustry": "Construction",
+    "status": "Delivered",
+    "overview": "Delivered a project intelligence portal to track manpower, materials, and site milestones from one interface.",
+    "clientType": "Enterprise Contractor",
+    "finalFeatures": [
+      "Resource allocation board",
+      "Milestone progress tracker",
+      "Site-level alerts and updates",
+      "Executive reporting panel"
+    ],
+    "technologies": [
+      "Next.js",
+      "Tailwind",
+      "Django",
+      "PostgreSQL"
+    ],
+    "projectDuration": "16 weeks",
+    "deliveryTimeline": [
+      "Planning (3 weeks)",
+      "Build (10 weeks)",
+      "Rollout (3 weeks)"
+    ],
+    "challengesAndSolutions": [
+      "Challenge: Inconsistent reporting formats from site teams. Solution: Standardized update templates with validation.",
+      "Challenge: Manual weekly rollups. Solution: Auto-generated project health reports."
+    ],
+    "clientFeedback": "CodeWork turned a high-friction process into a streamlined planning workflow for our teams.",
+    "screenshots": [
+      {
+        "id": "builderpro-resource-portal-shot-1",
+        "title": "Resource Planner",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "builderpro-resource-portal-shot-2",
+        "title": "Milestone Timeline",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "builderpro-resource-portal-shot-3",
+        "title": "Management Overview",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "startDate": "2025-04-17",
+    "endDate": "2025-08-07"
+  },
+  {
+    "id": "del-5",
+    "slug": "ekant-group-mlm-education-platform",
+    "type": "delivered",
+    "title": "Ekant Group – MLM & Education Platform",
+    "description": "Django-based MLM and course distribution platform with automated income engine and wallet workflows.",
+    "clientIndustry": "Network Marketing & Education",
+    "status": "Delivered",
+    "overview": "A binary-structure MLM system integrated with course sales, automated level/matching income distribution, rank rewards, wallet management, and admin financial analytics.",
+    "clientType": "Education & MLM Organization",
+    "finalFeatures": [
+      "Binary sponsor tree with left/right placement",
+      "Automated level and matching income engine",
+      "Rank and reward automation logic",
+      "Member wallet with transfer and withdrawal workflows",
+      "Admin financial analytics dashboard",
+      "KYC and bank verification system",
+      "Course purchase and distribution control"
+    ],
+    "technologies": [
+      "Django",
+      "Python",
+      "SQLite",
+      "Tailwind CSS",
+      "Chart.js"
+    ],
+    "projectDuration": "16 weeks",
+    "deliveryTimeline": [
+      "System Architecture & Planning (3 weeks)",
+      "Core Development (9 weeks)",
+      "Testing & Financial Logic Optimization (2 weeks)",
+      "Deployment & Training (2 weeks)"
+    ],
+    "challengesAndSolutions": [
+      "Challenge: Complex multi-level income distribution accuracy. Solution: Modular service-layer based income engine with transaction logging.",
+      "Challenge: Financial transparency and audit tracking. Solution: Centralized company wallet ledger and structured income history records."
+    ],
+    "clientFeedback": "The platform streamlined our MLM income calculations and significantly improved operational control.",
+    "screenshots": [
+      {
+        "id": "ekant-group-mlm-education-platform-shot-1",
+        "title": "Member Dashboard",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "ekant-group-mlm-education-platform-shot-2",
+        "title": "Income Distribution Panel",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "ekant-group-mlm-education-platform-shot-3",
+        "title": "Wallet & Withdrawal System",
+        "image": "/screenshots/sample-3.svg"
+      },
+      {
+        "id": "ekant-group-mlm-education-platform-shot-4",
+        "title": "Admin Analytics Dashboard",
+        "image": "/screenshots/sample-4.svg"
+      }
+    ],
+    "startDate": "2025-10-26",
+    "endDate": "2026-02-15"
+  },
+  {
+    "id": "del-6",
+    "slug": "northline-retail-automation-suite",
+    "type": "delivered",
+    "title": "Northline Retail Automation Suite",
+    "description": "Delivered operations automation suite for order handling and inventory alerts.",
+    "clientIndustry": "Retail",
+    "status": "Delivered",
+    "overview": "A workflow automation suite that reduced manual order processing and improved stock visibility across multiple outlets.",
+    "clientType": "Retail Chain",
+    "finalFeatures": [
+      "Automated order processing",
+      "Inventory threshold alerts",
+      "Supplier coordination module",
+      "Operations analytics dashboard"
+    ],
+    "technologies": [
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "projectDuration": "12 weeks",
+    "deliveryTimeline": [
+      "Audit (2 weeks)",
+      "Development (8 weeks)",
+      "Deployment (2 weeks)"
+    ],
+    "challengesAndSolutions": [
+      "Challenge: High manual dependency in replenishment workflow. Solution: Rule-based automation for stock triggers.",
+      "Challenge: Delayed supplier response visibility. Solution: Unified supplier status tracker."
+    ],
+    "clientFeedback": "We saw faster turnaround and fewer stockout incidents within weeks of launch.",
+    "screenshots": [
+      {
+        "id": "northline-retail-automation-suite-shot-1",
+        "title": "Order Automation",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "northline-retail-automation-suite-shot-2",
+        "title": "Stock Alerts",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "northline-retail-automation-suite-shot-3",
+        "title": "Supplier Tracker",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "startDate": "2025-02-27",
+    "endDate": "2025-05-22"
+  }
+]

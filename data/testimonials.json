@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tm-1",
+    "name": "Ava Martinez",
+    "role": "Operations Director, Northline Retail",
+    "quote": "CodeWork helped us automate repetitive operations and improved visibility across teams in less than two months."
+  },
+  {
+    "id": "tm-2",
+    "name": "Dr. Ethan Woods",
+    "role": "Administrator, BrightPath Institute",
+    "quote": "Their product thinking and execution quality were exceptional. The platform reduced admin load immediately."
+  },
+  {
+    "id": "tm-3",
+    "name": "Liam Chen",
+    "role": "Founder, PixelMart",
+    "quote": "Delivery was transparent, milestones were predictable, and the final product is fast and stable."
+  },
+  {
+    "id": "tm-4",
+    "name": "Sophia Bennett",
+    "role": "Head of Digital, Mediserve Clinics",
+    "quote": "They translated a complex operational process into an elegant dashboard our teams adopted quickly."
+  },
+  {
+    "id": "tm-5",
+    "name": "Noah Patel",
+    "role": "CTO, BuilderPro",
+    "quote": "CodeWork feels like a real engineering partner, not just an outsourced vendor."
+  }
+]

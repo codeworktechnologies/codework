@@ -1,0 +1,22 @@
+[
+  {
+    "id": "faq-1",
+    "question": "How quickly can you start a project?",
+    "answer": "Most engagements start within 1-2 weeks after discovery, scope lock, and planning sign-off."
+  },
+  {
+    "id": "faq-2",
+    "question": "Do you modernize existing software?",
+    "answer": "Yes. We perform architecture audits and deliver phased modernization plans with minimal business disruption."
+  },
+  {
+    "id": "faq-3",
+    "question": "Can this frontend connect to Django DRF later?",
+    "answer": "Yes. Components consume structured JSON and are ready to swap static data for DRF endpoints."
+  },
+  {
+    "id": "faq-4",
+    "question": "What industries do you support?",
+    "answer": "We work across education, retail, healthcare, field services, and SaaS product teams."
+  }
+]

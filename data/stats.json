@@ -1,0 +1,26 @@
+[
+  {
+    "id": "stat-1",
+    "label": "Projects Completed",
+    "value": 150,
+    "suffix": "+"
+  },
+  {
+    "id": "stat-2",
+    "label": "Happy Clients",
+    "value": 98,
+    "suffix": "%"
+  },
+  {
+    "id": "stat-3",
+    "label": "Years Experience",
+    "value": 8,
+    "suffix": "+"
+  },
+  {
+    "id": "stat-4",
+    "label": "Support Availability",
+    "value": 24,
+    "suffix": "/7"
+  }
+]

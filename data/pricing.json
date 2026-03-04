@@ -1,0 +1,44 @@
+[
+  {
+    "id": "plan-1",
+    "name": "Starter",
+    "monthly": "₹799",
+    "yearly": "₹699",
+    "period": "/month",
+    "highlighted": false,
+    "features": [
+      "Landing pages or MVP setup",
+      "Responsive UI implementation",
+      "Core feature delivery",
+      "Email support"
+    ]
+  },
+  {
+    "id": "plan-2",
+    "name": "Growth",
+    "monthly": "₹1,899",
+    "yearly": "₹1,599",
+    "period": "/month",
+    "highlighted": true,
+    "features": [
+      "Advanced app modules",
+      "Workflow and integration layer",
+      "Performance and security review",
+      "Priority support"
+    ]
+  },
+  {
+    "id": "plan-3",
+    "name": "Enterprise",
+    "monthly": "Custom",
+    "yearly": "Custom",
+    "period": "",
+    "highlighted": false,
+    "features": [
+      "Solution architecture and consulting",
+      "Cross-team delivery governance",
+      "Dedicated technical consultant",
+      "SLA-based support model"
+    ]
+  }
+]

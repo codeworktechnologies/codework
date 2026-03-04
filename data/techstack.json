@@ -1,0 +1,8 @@
+[
+  { "id": "tech-1", "name": "Next.js", "badge": "N" },
+  { "id": "tech-2", "name": "React", "badge": "R" },
+  { "id": "tech-3", "name": "Django", "badge": "D" },
+  { "id": "tech-4", "name": "DRF", "badge": "API" },
+  { "id": "tech-5", "name": "Tailwind", "badge": "TW" },
+  { "id": "tech-6", "name": "PostgreSQL", "badge": "PG" }
+]

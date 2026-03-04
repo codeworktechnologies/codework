@@ -1,0 +1,44 @@
+[
+  {
+    "id": "svc-1",
+    "icon": "💻",
+    "title": "Custom Software Development",
+    "description": "Tailor-made platforms aligned with your domain workflows and growth roadmap.",
+    "details": "We architect modular systems with clear service boundaries, security-first design, and observability baked in to support long-term product evolution."
+  },
+  {
+    "id": "svc-2",
+    "icon": "🌐",
+    "title": "Website Development",
+    "description": "High-performance websites designed for trust, conversion, and maintainability.",
+    "details": "From information architecture to analytics instrumentation, we build SEO-friendly, accessible, and fast experiences that support measurable business outcomes."
+  },
+  {
+    "id": "svc-3",
+    "icon": "🛒",
+    "title": "E-Commerce Solutions",
+    "description": "Commerce systems with smooth checkout, catalog control, and real-time insights.",
+    "details": "Our team delivers scalable storefronts, payment integrations, inventory sync, and operational dashboards that reduce friction across your sales workflow."
+  },
+  {
+    "id": "svc-4",
+    "icon": "🏫",
+    "title": "School & Institute Management",
+    "description": "Digital campus operations for admissions, academics, and communication.",
+    "details": "We build role-based ERP suites for students, faculty, and administrators with attendance, fee, exam, and reporting modules under one secure platform."
+  },
+  {
+    "id": "svc-5",
+    "icon": "⚙️",
+    "title": "Business Automation Systems",
+    "description": "Automation pipelines that remove repetitive work and reduce operational delay.",
+    "details": "We map your process bottlenecks and implement approval engines, custom workflows, and integration layers to improve throughput and decision speed."
+  },
+  {
+    "id": "svc-6",
+    "icon": "📱",
+    "title": "Mobile App Development",
+    "description": "Mobile products optimized for adoption, reliability, and future feature growth.",
+    "details": "We deliver polished app experiences with offline-ready patterns, API-first architecture, and maintainable release workflows for Android and iOS."
+  }
+]

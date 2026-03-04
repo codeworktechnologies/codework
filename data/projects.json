@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "our-1",
+    "slug": "eduflow-erp-suite",
+    "type": "our",
+    "title": "EduFlow ERP Suite",
+    "description": "Comprehensive institute management platform for academics, operations, and finance workflows.",
+    "industry": "Education Technology",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "EduFlow unifies admissions, fee tracking, attendance, exam workflows, and parent communication in one integrated web platform.",
+    "features": [
+      "Admissions and enrollment workflow",
+      "Attendance and timetable management",
+      "Fee collection and invoice tracking",
+      "Parent and faculty communication portal",
+      "Performance and analytics dashboards"
+    ],
+    "targetUsers": [
+      "School Administrators",
+      "Faculty Teams",
+      "Parents"
+    ],
+    "timeline": "Estimated 10-12 weeks",
+    "screenshots": [
+      {
+        "id": "eduflow-erp-suite-shot-1",
+        "title": "Dashboard Overview",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "eduflow-erp-suite-shot-2",
+        "title": "Attendance Module",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "eduflow-erp-suite-shot-3",
+        "title": "Fee Management Panel",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹1,999",
+        "deliveryTime": "4 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Core dashboard setup",
+          "Student records module",
+          "Basic reports"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹3,999",
+        "deliveryTime": "8 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Attendance and exam modules",
+          "Fee management and notifications",
+          "Role-based access"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹6,499",
+        "deliveryTime": "12 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Parent mobile-ready portal",
+          "Advanced analytics",
+          "Custom integrations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-2",
+    "slug": "retailhub-commerce",
+    "type": "our",
+    "title": "RetailHub Commerce",
+    "description": "Multi-vendor commerce platform with inventory intelligence and order automation.",
+    "industry": "E-Commerce",
+    "technologies": [
+      "Next.js",
+      "Tailwind",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "RetailHub helps brands manage catalog, vendors, promotions, and fulfillment workflows through a unified commerce control panel.",
+    "features": [
+      "Multi-vendor onboarding",
+      "Smart inventory alerts",
+      "Order lifecycle tracking",
+      "Coupon and promotion engine",
+      "Sales analytics"
+    ],
+    "targetUsers": [
+      "Retail Operations Teams",
+      "Vendors",
+      "Store Admins"
+    ],
+    "timeline": "Estimated 8-10 weeks",
+    "screenshots": [
+      {
+        "id": "retailhub-commerce-shot-1",
+        "title": "Vendor Dashboard",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "retailhub-commerce-shot-2",
+        "title": "Orders Panel",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "retailhub-commerce-shot-3",
+        "title": "Analytics Overview",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹1,499",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Product catalog module",
+          "Order management basics",
+          "Admin dashboard"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹2,999",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Vendor management",
+          "Inventory alerts",
+          "Payment flow integration"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹4,999",
+        "deliveryTime": "10 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced promotions",
+          "Business intelligence reports",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-3",
+    "slug": "fieldops-mobile",
+    "type": "our",
+    "title": "FieldOps Mobile",
+    "description": "Field service workflow product for tickets, audits, and on-site reporting.",
+    "industry": "Business Automation",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Django",
+      "DRF"
+    ],
+    "overview": "FieldOps streamlines assignment, route visibility, compliance checks, and real-time ticket closures for distributed service teams.",
+    "features": [
+      "Technician task board",
+      "Issue photo and proof upload",
+      "Geo-tagged check-ins",
+      "Audit checklist workflows",
+      "Live status dashboard"
+    ],
+    "targetUsers": [
+      "Operations Managers",
+      "Field Technicians",
+      "Support Teams"
+    ],
+    "timeline": "Estimated 7-9 weeks",
+    "screenshots": [
+      {
+        "id": "fieldops-mobile-shot-1",
+        "title": "Task Board",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "fieldops-mobile-shot-2",
+        "title": "Audit Checklist",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "fieldops-mobile-shot-3",
+        "title": "Live Tracking",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹1,299",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Task assignment",
+          "Ticket tracking",
+          "Basic reporting"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹2,799",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Geo-checkins",
+          "Checklist automation",
+          "Supervisor dashboard"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹4,599",
+        "deliveryTime": "9 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Deep analytics",
+          "Role-based workflows",
+          "API integrations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-4",
+    "slug": "pulsecrm-cloud",
+    "type": "our",
+    "title": "PulseCRM Cloud",
+    "description": "Lightweight CRM for lead management, communication tracking, and team analytics.",
+    "industry": "SaaS Product",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "PostgreSQL"
+    ],
+    "overview": "PulseCRM gives sales teams clear pipeline visibility, activity tracking, and actionable conversion reporting.",
+    "features": [
+      "Lead and opportunity tracking",
+      "Notes and activity timeline",
+      "Email and follow-up reminders",
+      "Team performance dashboards",
+      "Exportable reports"
+    ],
+    "targetUsers": [
+      "Sales Teams",
+      "Business Managers",
+      "Founders"
+    ],
+    "timeline": "Estimated 6-8 weeks",
+    "screenshots": [
+      {
+        "id": "pulsecrm-cloud-shot-1",
+        "title": "Pipeline View",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "pulsecrm-cloud-shot-2",
+        "title": "Activity Timeline",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "pulsecrm-cloud-shot-3",
+        "title": "Sales Insights",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹999",
+        "deliveryTime": "2 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Lead board",
+          "Contact records",
+          "Basic dashboard"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹2,199",
+        "deliveryTime": "5 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Automation reminders",
+          "Team activity reports",
+          "Custom fields"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹3,999",
+        "deliveryTime": "8 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced analytics",
+          "Workflow customization",
+          "Priority enhancements"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-5",
+    "slug": "msk-school",
+    "type": "our",
+    "title": "MSK School",
+    "description": "Complete school management system covering admissions, attendance, fee management, exams, results, and parent communication.",
+    "industry": "Education",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "MSK School centralizes school operations with role-based workflows for administration, faculty, and parents.",
+    "features": [
+      "Admissions",
+      "Attendance",
+      "Fee Management",
+      "Exam and Results",
+      "Parent Communication"
+    ],
+    "targetUsers": [
+      "School Admins",
+      "Teachers",
+      "Parents"
+    ],
+    "timeline": "Estimated 8-10 weeks",
+    "screenshots": [
+      {
+        "id": "msk-school-shot-1",
+        "title": "Admin Dashboard",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-school-shot-2",
+        "title": "Attendance Panel",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-school-shot-3",
+        "title": "Parent Portal",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹49,000",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Admissions",
+          "Student records",
+          "Basic attendance"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹89,000",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Fees",
+          "Exams and Results",
+          "Parent notifications"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,39,000",
+        "deliveryTime": "9 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced reporting",
+          "Custom workflows",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-6",
+    "slug": "msk-institute",
+    "type": "our",
+    "title": "MSK Institute",
+    "description": "Advanced solution for computer centers and coaching institutes, including student management, batch scheduling, fee tracking, certifications, and performance reports.",
+    "industry": "Coaching and Institutes",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Institute is designed for high-volume training centers with strong control over batches, certifications, and progress.",
+    "features": [
+      "Student management",
+      "Batch scheduling",
+      "Fee tracking",
+      "Certifications",
+      "Performance reports"
+    ],
+    "targetUsers": [
+      "Institute Managers",
+      "Trainers",
+      "Students"
+    ],
+    "timeline": "Estimated 7-9 weeks",
+    "screenshots": [
+      {
+        "id": "msk-institute-shot-1",
+        "title": "Batch Planner",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-institute-shot-2",
+        "title": "Certification Panel",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-institute-shot-3",
+        "title": "Performance Reports",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹44,000",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Student onboarding",
+          "Batch creation",
+          "Fee records"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹84,000",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Certification module",
+          "Performance dashboard"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,29,000",
+        "deliveryTime": "9 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Automated reminders",
+          "Advanced analytics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-7",
+    "slug": "msk-medical",
+    "type": "our",
+    "title": "MSK Medical",
+    "description": "Comprehensive software for clinics and medical stores with billing, inventory management, patient records, and sales reporting.",
+    "industry": "Healthcare",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Medical combines clinic operations and pharmacy workflows into one secure operational suite.",
+    "features": [
+      "Clinic billing",
+      "Inventory",
+      "Patient records",
+      "Prescription support",
+      "Sales reporting"
+    ],
+    "targetUsers": [
+      "Clinics",
+      "Medical Stores",
+      "Reception Teams"
+    ],
+    "timeline": "Estimated 8-11 weeks",
+    "screenshots": [
+      {
+        "id": "msk-medical-shot-1",
+        "title": "Patient Ledger",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-medical-shot-2",
+        "title": "Medical Billing",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-medical-shot-3",
+        "title": "Inventory Alerts",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹59,000",
+        "deliveryTime": "4 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Billing",
+          "Basic inventory",
+          "Patient profiles"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹99,000",
+        "deliveryTime": "7 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Advanced inventory",
+          "Sales reports"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,49,000",
+        "deliveryTime": "11 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Custom reports",
+          "Integration support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-8",
+    "slug": "msk-teacher",
+    "type": "our",
+    "title": "MSK Teacher",
+    "description": "Dedicated platform for teachers to manage classes, assignments, attendance, and student performance efficiently.",
+    "industry": "Education",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF"
+    ],
+    "overview": "MSK Teacher simplifies day-to-day classroom operations with faster tracking of assignments and student progress.",
+    "features": [
+      "Class management",
+      "Assignments",
+      "Attendance",
+      "Performance tracking",
+      "Student communication"
+    ],
+    "targetUsers": [
+      "Teachers",
+      "Academic Coordinators"
+    ],
+    "timeline": "Estimated 5-7 weeks",
+    "screenshots": [
+      {
+        "id": "msk-teacher-shot-1",
+        "title": "Class Overview",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-teacher-shot-2",
+        "title": "Assignment Board",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-teacher-shot-3",
+        "title": "Performance Chart",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹29,000",
+        "deliveryTime": "2 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Class setup",
+          "Attendance",
+          "Assignment upload"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹54,000",
+        "deliveryTime": "5 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Performance reports",
+          "Parent alerts"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹79,000",
+        "deliveryTime": "7 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Custom grading workflows",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-9",
+    "slug": "msk-employees-hire",
+    "type": "our",
+    "title": "MSK Employees Hire",
+    "description": "Recruitment and workforce management system for hiring, employee tracking, payroll basics, and HR documentation.",
+    "industry": "HR and Workforce",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Employees Hire supports hiring pipelines and employee lifecycle workflows in one interface.",
+    "features": [
+      "Hiring pipeline",
+      "Employee records",
+      "Payroll basics",
+      "HR documentation",
+      "Status tracking"
+    ],
+    "targetUsers": [
+      "HR Teams",
+      "Recruiters",
+      "Operations Heads"
+    ],
+    "timeline": "Estimated 6-8 weeks",
+    "screenshots": [
+      {
+        "id": "msk-employees-hire-shot-1",
+        "title": "Hiring Pipeline",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-employees-hire-shot-2",
+        "title": "Employee Profiles",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-employees-hire-shot-3",
+        "title": "HR Docs Center",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹39,000",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Candidate tracking",
+          "Employee profiles",
+          "Basic docs"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹72,000",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Payroll basics",
+          "Offer management"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,09,000",
+        "deliveryTime": "8 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Workflow automation",
+          "Audit-ready reports"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-10",
+    "slug": "msk-retail",
+    "type": "our",
+    "title": "MSK Retail",
+    "description": "Smart billing and inventory system for retail shops, supermarkets, and wholesalers.",
+    "industry": "Retail",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Retail improves billing speed and stock visibility for fast-moving retail operations.",
+    "features": [
+      "Billing",
+      "Inventory",
+      "Supplier records",
+      "Stock alerts",
+      "Sales analytics"
+    ],
+    "targetUsers": [
+      "Retail Shop Owners",
+      "Cashiers",
+      "Store Managers"
+    ],
+    "timeline": "Estimated 5-8 weeks",
+    "screenshots": [
+      {
+        "id": "msk-retail-shot-1",
+        "title": "POS Billing",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-retail-shot-2",
+        "title": "Stock Dashboard",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-retail-shot-3",
+        "title": "Sales Trends",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹34,000",
+        "deliveryTime": "2 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "POS billing",
+          "Product catalog",
+          "Daily sales"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹64,000",
+        "deliveryTime": "5 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Inventory control",
+          "Supplier ledger"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹94,000",
+        "deliveryTime": "8 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced analytics",
+          "Multi-store support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-11",
+    "slug": "msk-restaurant",
+    "type": "our",
+    "title": "MSK Restaurant",
+    "description": "Restaurant and café management software with order tracking, billing, kitchen management, and daily sales analytics.",
+    "industry": "Restaurant",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Restaurant streamlines order-to-billing workflows across front desk, kitchen, and management.",
+    "features": [
+      "Order tracking",
+      "Table billing",
+      "Kitchen queue",
+      "Menu management",
+      "Daily analytics"
+    ],
+    "targetUsers": [
+      "Restaurant Owners",
+      "Cashiers",
+      "Kitchen Staff"
+    ],
+    "timeline": "Estimated 5-7 weeks",
+    "screenshots": [
+      {
+        "id": "msk-restaurant-shot-1",
+        "title": "Order Board",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-restaurant-shot-2",
+        "title": "Kitchen Queue",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-restaurant-shot-3",
+        "title": "Daily Sales",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹32,000",
+        "deliveryTime": "2 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Order entry",
+          "Billing",
+          "Basic reports"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹59,000",
+        "deliveryTime": "5 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Kitchen workflows",
+          "Menu controls"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹89,000",
+        "deliveryTime": "7 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced analytics",
+          "Custom roles"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-12",
+    "slug": "msk-hospital",
+    "type": "our",
+    "title": "MSK Hospital",
+    "description": "Complete hospital management system with patient records, billing, appointments, pharmacy, and reporting.",
+    "industry": "Hospitality",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Hospital digitizes hospital operations including patient registration, doctor scheduling, billing, pharmacy management, and administrative reporting.",
+    "features": [
+      "Patient registration",
+      "Appointment scheduling",
+      "Doctor management",
+      "Billing & invoicing",
+      "Pharmacy management",
+      "Medical records tracking",
+      "Analytics dashboard"
+    ],
+    "targetUsers": [
+      "Hospital Administrators",
+      "Doctors",
+      "Reception Staff",
+      "Pharmacy Managers"
+    ],
+    "timeline": "Estimated 6-8 weeks",
+    "screenshots": [
+      {
+        "id": "msk-hospital-shot-1",
+        "title": "Patient Dashboard",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-hospital-shot-2",
+        "title": "Appointment Panel",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-hospital-shot-3",
+        "title": "Billing System",
+        "image": "/screenshots/sample-3.svg"
+      },
+      {
+        "id": "msk-hospital-shot-4",
+        "title": "Analytics Dashboard",
+        "image": "/screenshots/sample-4.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹55,000",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Patient records",
+          "Appointment booking",
+          "Basic billing"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹95,000",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Doctor scheduling",
+          "Pharmacy module",
+          "Advanced billing"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,45,000",
+        "deliveryTime": "8 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced analytics",
+          "Multi-branch support",
+          "Custom role permissions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-13",
+    "slug": "msk-real-estate",
+    "type": "our",
+    "title": "MSK Real Estate",
+    "description": "Property management system for real estate businesses to manage listings, clients, agreements, and payments.",
+    "industry": "Real Estate",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF"
+    ],
+    "overview": "MSK Real Estate helps agencies manage property inventory, client follow-ups, and agreement workflows.",
+    "features": [
+      "Property listings",
+      "Client records",
+      "Agreement management",
+      "Payment tracking",
+      "Lead follow-up"
+    ],
+    "targetUsers": [
+      "Real Estate Agencies",
+      "Agents",
+      "Operations Teams"
+    ],
+    "timeline": "Estimated 6-9 weeks",
+    "screenshots": [
+      {
+        "id": "msk-real-estate-shot-1",
+        "title": "Listings Panel",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-real-estate-shot-2",
+        "title": "Client Tracker",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-real-estate-shot-3",
+        "title": "Agreement Center",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹45,000",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Listings management",
+          "Client records",
+          "Basic pipeline"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹79,000",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Agreements",
+          "Payment tracker"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,19,000",
+        "deliveryTime": "9 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Automation workflows",
+          "Advanced reporting"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-14",
+    "slug": "msk-gym-fitness",
+    "type": "our",
+    "title": "MSK Gym & Fitness",
+    "description": "Membership and subscription management system for gyms and fitness centers, including attendance and fee reminders.",
+    "industry": "Fitness",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Gym & Fitness enables quick membership tracking, attendance logging, and recurring payment reminders.",
+    "features": [
+      "Membership plans",
+      "Attendance tracking",
+      "Fee reminders",
+      "Trainer assignment",
+      "Revenue summary"
+    ],
+    "targetUsers": [
+      "Gym Owners",
+      "Front Desk Teams",
+      "Trainers"
+    ],
+    "timeline": "Estimated 4-6 weeks",
+    "screenshots": [
+      {
+        "id": "msk-gym-fitness-shot-1",
+        "title": "Member Dashboard",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-gym-fitness-shot-2",
+        "title": "Attendance Logs",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-gym-fitness-shot-3",
+        "title": "Renewal Alerts",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹24,000",
+        "deliveryTime": "2 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Member profiles",
+          "Attendance",
+          "Plan setup"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹44,000",
+        "deliveryTime": "4 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Renewal reminders",
+          "Trainer mapping"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹69,000",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced reports",
+          "Custom modules"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-15",
+    "slug": "msk-accounting",
+    "type": "our",
+    "title": "MSK Accounting",
+    "description": "Business accounting software for expense tracking, income reports, GST summaries, and financial management.",
+    "industry": "Finance and Accounting",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "MSK Accounting gives businesses a clean and practical system for daily bookkeeping and tax-ready reporting.",
+    "features": [
+      "Expense tracking",
+      "Income reports",
+      "GST summaries",
+      "Ledger views",
+      "Financial snapshots"
+    ],
+    "targetUsers": [
+      "Business Owners",
+      "Accountants",
+      "Finance Teams"
+    ],
+    "timeline": "Estimated 6-8 weeks",
+    "screenshots": [
+      {
+        "id": "msk-accounting-shot-1",
+        "title": "Expense Ledger",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "msk-accounting-shot-2",
+        "title": "GST Summary",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "msk-accounting-shot-3",
+        "title": "Financial Dashboard",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹39,000",
+        "deliveryTime": "3 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Expense and income",
+          "Basic ledgers",
+          "Summary reports"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹69,000",
+        "deliveryTime": "6 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "GST summaries",
+          "Invoice workflows"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹1,04,000",
+        "deliveryTime": "8 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced financial analytics",
+          "Priority support"
+        ]
+      }
+    ]
+  }
+]
