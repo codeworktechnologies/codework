@@ -1,0 +1,15 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="24" fill="#0D1328"/>
+  <rect x="24" y="24" width="1152" height="54" rx="12" fill="#121C38"/>
+  <rect x="40" y="96" width="360" height="580" rx="16" fill="#121C38"/>
+  <rect x="420" y="96" width="756" height="580" rx="16" fill="#121C38"/>
+  <circle cx="220" cy="250" r="120" fill="#1A2A4E"/>
+  <path d="M220 130A120 120 0 0 1 334 220L220 250V130Z" fill="#22D3EE"/>
+  <path d="M334 220A120 120 0 0 1 255 365L220 250L334 220Z" fill="#4F46E5"/>
+  <rect x="450" y="140" width="700" height="24" rx="8" fill="#2A3F71"/>
+  <rect x="450" y="190" width="620" height="18" rx="8" fill="#22345E"/>
+  <rect x="450" y="224" width="670" height="18" rx="8" fill="#22345E"/>
+  <rect x="450" y="258" width="580" height="18" rx="8" fill="#22345E"/>
+  <rect x="450" y="320" width="700" height="300" rx="14" fill="#17274A"/>
+  <text x="62" y="130" fill="#A7BCE3" font-size="24" font-family="Arial, sans-serif">Analytics</text>
+</svg>

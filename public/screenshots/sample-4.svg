@@ -1,0 +1,15 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="24" fill="#0B1022"/>
+  <rect x="24" y="24" width="1152" height="54" rx="12" fill="#151F3B"/>
+  <rect x="24" y="96" width="740" height="580" rx="16" fill="#151F3B"/>
+  <rect x="784" y="96" width="392" height="580" rx="16" fill="#151F3B"/>
+  <rect x="52" y="128" width="684" height="220" rx="16" fill="#1B2B51"/>
+  <rect x="52" y="370" width="332" height="278" rx="16" fill="#1B2B51"/>
+  <rect x="404" y="370" width="332" height="278" rx="16" fill="#1B2B51"/>
+  <rect x="812" y="128" width="336" height="28" rx="10" fill="#2B3F6E"/>
+  <rect x="812" y="176" width="336" height="28" rx="10" fill="#23345C"/>
+  <rect x="812" y="224" width="336" height="28" rx="10" fill="#2B3F6E"/>
+  <rect x="812" y="272" width="336" height="28" rx="10" fill="#23345C"/>
+  <rect x="812" y="320" width="336" height="28" rx="10" fill="#2B3F6E"/>
+  <text x="70" y="160" fill="#B7C9EB" font-size="24" font-family="Arial, sans-serif">Operations Board</text>
+</svg>

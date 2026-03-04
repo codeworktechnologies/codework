@@ -1,0 +1,15 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="24" fill="#0C1328"/>
+  <rect x="24" y="24" width="1152" height="54" rx="12" fill="#13203D"/>
+  <rect x="24" y="96" width="1152" height="580" rx="16" fill="#13203D"/>
+  <rect x="58" y="130" width="300" height="510" rx="16" fill="#1A2D52"/>
+  <rect x="378" y="130" width="766" height="250" rx="16" fill="#1A2D52"/>
+  <rect x="378" y="400" width="245" height="240" rx="16" fill="#1A2D52"/>
+  <rect x="643" y="400" width="245" height="240" rx="16" fill="#1A2D52"/>
+  <rect x="908" y="400" width="236" height="240" rx="16" fill="#1A2D52"/>
+  <rect x="82" y="168" width="250" height="24" rx="8" fill="#2A4273"/>
+  <rect x="82" y="212" width="220" height="18" rx="8" fill="#243A66"/>
+  <rect x="82" y="246" width="240" height="18" rx="8" fill="#243A66"/>
+  <path d="M410 340L500 250L610 290L700 230L820 300L930 210L1110 290" stroke="#22D3EE" stroke-width="8" stroke-linecap="round"/>
+  <text x="80" y="610" fill="#AFC3E9" font-size="22" font-family="Arial, sans-serif">User / Admin Portal Views</text>
+</svg>

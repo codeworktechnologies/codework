@@ -1,0 +1,16 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="24" fill="#0A0F1D"/>
+  <rect x="24" y="24" width="1152" height="54" rx="12" fill="#111B34"/>
+  <rect x="24" y="96" width="1152" height="580" rx="16" fill="#111B34"/>
+  <rect x="56" y="130" width="500" height="170" rx="16" fill="#192A4D"/>
+  <rect x="576" y="130" width="568" height="170" rx="16" fill="#192A4D"/>
+  <rect x="56" y="320" width="1088" height="120" rx="16" fill="#1D315A"/>
+  <rect x="56" y="460" width="1088" height="184" rx="16" fill="#162745"/>
+  <circle cx="120" cy="380" r="18" fill="#22D3EE"/>
+  <rect x="152" y="368" width="300" height="24" rx="8" fill="#2E4578"/>
+  <circle cx="120" cy="520" r="18" fill="#60A5FA"/>
+  <rect x="152" y="508" width="460" height="24" rx="8" fill="#2E4578"/>
+  <circle cx="120" cy="565" r="18" fill="#818CF8"/>
+  <rect x="152" y="553" width="380" height="24" rx="8" fill="#2E4578"/>
+  <text x="72" y="164" fill="#B8CCF0" font-size="24" font-family="Arial, sans-serif">Checkout / Billing</text>
+</svg>
