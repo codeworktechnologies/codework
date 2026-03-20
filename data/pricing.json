@@ -1,44 +1,472 @@
 [
   {
-    "id": "plan-1",
-    "name": "Starter",
-    "monthly": "₹799",
-    "yearly": "₹699",
-    "period": "/month",
+    "id": "web-1",
+    "name": "Starter Website",
+    "price": "₹2,999 - ₹4,999",
+    "period": "one-time",
     "highlighted": false,
     "features": [
-      "Landing pages or MVP setup",
-      "Responsive UI implementation",
-      "Core feature delivery",
-      "Email support"
+      {
+        "text": "Basic website design (up to 5 pages)",
+        "included": true
+      },
+      {
+        "text": "Responsive layout",
+        "included": true
+      },
+      {
+        "text": "Basic SEO setup",
+        "included": true
+      },
+      {
+        "text": "WhatsApp button integration",
+        "included": true
+      },
+      {
+        "text": "Custom features / dynamic functionality",
+        "included": false
+      },
+      {
+        "text": "Content creation",
+        "included": false
+      },
+      {
+        "text": "UI animations & advanced design",
+        "included": false
+      },
+      {
+        "text": "Product / service listing pages",
+        "included": false
+      },
+      {
+        "text": "Admin panel / dashboard",
+        "included": false
+      },
+      {
+        "text": "Payment gateway integration",
+        "included": false
+      }
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "extraCharges": [
+      {
+        "name": "Domain",
+        "value": "₹1,000 / year"
+      },
+      {
+        "name": "Hosting",
+        "value": "₹999 / year"
+      }
     ]
   },
   {
-    "id": "plan-2",
-    "name": "Growth",
-    "monthly": "₹1,899",
-    "yearly": "₹1,599",
+    "id": "web-2",
+    "name": "Professional Website",
+    "price": "₹5,999 - ₹9,999",
+    "period": "one-time",
+    "highlighted": true,
+    "features": [
+      {
+        "text": "Custom website design (up to 10 pages)",
+        "included": true
+      },
+      {
+        "text": "Responsive layout with modern UI",
+        "included": true
+      },
+      {
+        "text": "SEO optimization (on-page)",
+        "included": true
+      },
+      {
+        "text": "Content creation (basic)",
+        "included": true
+      },
+      {
+        "text": "Services / products listing",
+        "included": true
+      },
+      {
+        "text": "UI animations & improved UX",
+        "included": true
+      },
+      {
+        "text": "WhatsApp & contact integrations",
+        "included": true
+      },
+      {
+        "text": "Admin panel / dashboard",
+        "included": false
+      },
+      {
+        "text": "Online ordering system",
+        "included": false
+      },
+      {
+        "text": "Payment gateway integration",
+        "included": false
+      },
+      {
+        "text": "User authentication system",
+        "included": false
+      },
+      {
+        "text": "Advanced backend APIs",
+        "included": false
+      }
+    ],
+    "skills": [
+      "React.js",
+      "Next.js",
+      "JavaScript",
+      "Animations"
+    ],
+    "extraCharges": [
+      {
+        "name": "Domain",
+        "value": "₹1,000 / year"
+      },
+      {
+        "name": "Hosting",
+        "value": "₹2,999 / year"
+      }
+    ]
+  },
+  {
+    "id": "web-3",
+    "name": "Premium Custom Website",
+    "price": "₹14,999 - ₹29,999",
+    "period": "one-time",
+    "highlighted": false,
+    "features": [
+      {
+        "text": "Fully custom design (unlimited pages)",
+        "included": true
+      },
+      {
+        "text": "Advanced responsive UI/UX",
+        "included": true
+      },
+      {
+        "text": "Advanced SEO setup",
+        "included": true
+      },
+      {
+        "text": "Complete content strategy & creation",
+        "included": true
+      },
+      {
+        "text": "Product / service management system",
+        "included": true
+      },
+      {
+        "text": "Admin panel / dashboard",
+        "included": true
+      },
+      {
+        "text": "Online ordering system",
+        "included": true
+      },
+      {
+        "text": "Payment gateway integration",
+        "included": true
+      },
+      {
+        "text": "User authentication system",
+        "included": true
+      },
+      {
+        "text": "Custom APIs & backend integration",
+        "included": true
+      },
+      {
+        "text": "Advanced animations & interactions",
+        "included": true
+      }
+    ],
+    "skills": [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Django",
+      "API Integration",
+      "Advanced Animations"
+    ],
+    "extraCharges": [
+      {
+        "name": "Domain",
+        "value": "₹1,000 / year"
+      },
+      {
+        "name": "Hosting",
+        "value": "₹8,499 / year"
+      }
+    ]
+  },
+  {
+    "id": "maint-1",
+    "name": "Starter Maintenance",
+    "price": "₹999",
+    "period": "/month",
+    "highlighted": false,
+    "features": [
+      {
+        "text": "Essential support and updates",
+        "included": true
+      },
+      {
+        "text": "Regular performance checks",
+        "included": true
+      },
+      {
+        "text": "Security monitoring",
+        "included": true
+      },
+      {
+        "text": "Content updates",
+        "included": false
+      },
+      {
+        "text": "SEO optimization",
+        "included": false
+      }
+    ]
+  },
+  {
+    "id": "maint-2",
+    "name": "Professional Maintenance",
+    "price": "₹799",
     "period": "/month",
     "highlighted": true,
     "features": [
-      "Advanced app modules",
-      "Workflow and integration layer",
-      "Performance and security review",
-      "Priority support"
+      {
+        "text": "Comprehensive support and updates",
+        "included": true
+      },
+      {
+        "text": "Regular performance checks",
+        "included": true
+      },
+      {
+        "text": "Enhanced security monitoring",
+        "included": true
+      },
+      {
+        "text": "Content updates included",
+        "included": true
+      },
+      {
+        "text": "SEO optimization assistance",
+        "included": true
+      }
     ]
   },
   {
-    "id": "plan-3",
-    "name": "Enterprise",
-    "monthly": "Custom",
-    "yearly": "Custom",
-    "period": "",
+    "id": "maint-3",
+    "name": "Premium Custom Maintenance",
+    "price": "₹1999",
+    "period": "/month",
     "highlighted": false,
     "features": [
-      "Solution architecture and consulting",
-      "Cross-team delivery governance",
-      "Dedicated technical consultant",
-      "SLA-based support model"
+      {
+        "text": "Dedicated support for educational institutions",
+        "included": true
+      },
+      {
+        "text": "Regular content updates for events and announcements",
+        "included": true
+      },
+      {
+        "text": "Performance checks tailored for educational needs",
+        "included": true
+      },
+      {
+        "text": "Security monitoring to protect student data",
+        "included": true
+      },
+      {
+        "text": "SEO strategies for better visibility",
+        "included": true
+      }
+    ]
+  },
+  {
+    "id": "app-1",
+    "name": "Basic App",
+    "price": "₹79,000",
+    "period": "one-time",
+    "highlighted": false,
+    "features": [
+      {
+        "text": "Simple app (up to 5 screens)",
+        "included": true
+      },
+      {
+        "text": "Cross-platform compatibility",
+        "included": true
+      },
+      {
+        "text": "Basic UI design",
+        "included": true
+      },
+      {
+        "text": "Backend integration",
+        "included": false
+      },
+      {
+        "text": "App store deployment",
+        "included": false
+      }
+    ]
+  },
+  {
+    "id": "app-2",
+    "name": "Standard App",
+    "price": "₹1,83,000",
+    "period": "one-time",
+    "highlighted": true,
+    "features": [
+      {
+        "text": "Moderate app (up to 10 screens)",
+        "included": true
+      },
+      {
+        "text": "Cross-platform compatibility",
+        "included": true
+      },
+      {
+        "text": "Custom UI design",
+        "included": true
+      },
+      {
+        "text": "Backend integration",
+        "included": true
+      },
+      {
+        "text": "App store deployment",
+        "included": false
+      }
+    ]
+  },
+  {
+    "id": "app-3",
+    "name": "Premium App",
+    "price": "₹2,49,000",
+    "period": "one-time",
+    "highlighted": false,
+    "features": [
+      {
+        "text": "Advanced app (unlimited screens)",
+        "included": true
+      },
+      {
+        "text": "Cross-platform compatibility",
+        "included": true
+      },
+      {
+        "text": "Custom UI/UX design",
+        "included": true
+      },
+      {
+        "text": "Comprehensive backend integration",
+        "included": true
+      },
+      {
+        "text": "App store deployment and support",
+        "included": true
+      }
+    ]
+  },
+  {
+    "id": "app-maint-1",
+    "name": "Basic App Maintenance",
+    "price": "₹2,500",
+    "period": "/month",
+    "highlighted": false,
+    "features": [
+      {
+        "text": "Monthly app updates",
+        "included": true
+      },
+      {
+        "text": "Basic security monitoring",
+        "included": true
+      },
+      {
+        "text": "Performance optimization",
+        "included": true
+      },
+      {
+        "text": "Backup services",
+        "included": false
+      },
+      {
+        "text": "Technical support",
+        "included": false
+      }
+    ]
+  },
+  {
+    "id": "app-maint-2",
+    "name": "Standard App Maintenance",
+    "price": "₹4,000",
+    "period": "/month",
+    "highlighted": true,
+    "features": [
+      {
+        "text": "Bi-weekly app updates",
+        "included": true
+      },
+      {
+        "text": "Advanced security monitoring",
+        "included": true
+      },
+      {
+        "text": "Performance optimization",
+        "included": true
+      },
+      {
+        "text": "Backup services",
+        "included": true
+      },
+      {
+        "text": "Technical support",
+        "included": false
+      }
+    ]
+  },
+  {
+    "id": "app-maint-3",
+    "name": "Premium App Maintenance",
+    "price": "₹8,000",
+    "period": "/month",
+    "highlighted": false,
+    "features": [
+      {
+        "text": "Weekly app updates",
+        "included": true
+      },
+      {
+        "text": "Comprehensive security monitoring",
+        "included": true
+      },
+      {
+        "text": "Performance optimization",
+        "included": true
+      },
+      {
+        "text": "Backup services",
+        "included": true
+      },
+      {
+        "text": "Priority technical support",
+        "included": true
+      }
     ]
   }
 ]

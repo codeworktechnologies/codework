@@ -1,5 +1,98 @@
 [
   {
+    "id": "our-0",
+    "slug": "salon",
+    "type": "our",
+    "title": "Salon Management System",
+    "description": "All-in-one salon management platform to handle appointments, billing, staff, and customer engagement efficiently.",
+    "industry": "Beauty & Wellness Technology",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Django",
+      "DRF",
+      "PostgreSQL"
+    ],
+    "overview": "SalonFlow is a complete digital solution designed for salons and beauty businesses to manage bookings, services, staff performance, and customer relationships in one seamless platform.",
+    "features": [
+      "Online appointment booking system",
+      "Service and pricing management",
+      "Customer records and history tracking",
+      "Billing and invoice generation",
+      "Staff management and commission tracking",
+      "SMS/WhatsApp appointment reminders",
+      "Dashboard with sales and performance analytics"
+    ],
+    "targetUsers": [
+      "Salon Owners",
+      "Beauty Professionals",
+      "Spa & Wellness Centers"
+    ],
+    "timeline": "Estimated 4-12 weeks",
+    "screenshots": [
+      {
+        "id": "salon-dashboard-shot-1",
+        "title": "Dashboard Overview",
+        "image": "/screenshots/sample-1.svg"
+      },
+      {
+        "id": "salon-booking-shot-2",
+        "title": "Appointment Booking Panel",
+        "image": "/screenshots/sample-2.svg"
+      },
+      {
+        "id": "salon-billing-shot-3",
+        "title": "Billing & Invoice System",
+        "image": "/screenshots/sample-3.svg"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "₹1,999",
+        "deliveryTime": "4 weeks",
+        "supportDuration": "1 month",
+        "features": [
+          "Salon dashboard setup",
+          "Basic appointment booking",
+          "Customer records management",
+          "Basic billing system"
+        ],
+        "demoLink": "https://codeworktechnologies.github.io/Basic-Salon/"
+      },
+      {
+        "name": "Standard",
+        "price": "₹3,999",
+        "deliveryTime": "8 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Everything in Basic",
+          "Advanced appointment scheduling",
+          "Staff management",
+          "Service & pricing customization",
+          "Automated reminders (SMS/WhatsApp)",
+          "Role-based access"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹6,499",
+        "deliveryTime": "12 weeks",
+        "supportDuration": "6 months",
+        "features": [
+          "Everything in Standard",
+          "Advanced analytics dashboard",
+          "Customer loyalty & offers system",
+          "Multi-branch management",
+          "Custom integrations",
+          "Mobile responsive admin panel"
+        ],
+        "demoLink": "https://example.com/salonflow-demo"
+      }
+    ],
+    "category": "App"
+  },
+  {
     "id": "our-1",
     "slug": "eduflow-erp-suite",
     "type": "our",
@@ -78,9 +171,11 @@
           "Parent mobile-ready portal",
           "Advanced analytics",
           "Custom integrations"
-        ]
+        ],
+        "demoLink": "https://example.com/eduflow-demo"
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-2",
@@ -149,7 +244,8 @@
           "Vendor management",
           "Inventory alerts",
           "Payment flow integration"
-        ]
+        ],
+        "demoLink": "https://example.com/retailhub-demo"
       },
       {
         "name": "Premium",
@@ -163,7 +259,8 @@
           "Priority support"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-3",
@@ -245,7 +342,8 @@
           "API integrations"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-4",
@@ -327,7 +425,8 @@
           "Priority enhancements"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-5",
@@ -410,7 +509,8 @@
           "Priority support"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-6",
@@ -491,7 +591,8 @@
           "Advanced analytics"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-7",
@@ -572,7 +673,8 @@
           "Integration support"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-8",
@@ -651,7 +753,8 @@
           "Priority support"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-9",
@@ -731,7 +834,8 @@
           "Audit-ready reports"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-10",
@@ -812,7 +916,8 @@
           "Multi-store support"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-11",
@@ -892,7 +997,8 @@
           "Custom roles"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-12",
@@ -982,7 +1088,8 @@
           "Custom role permissions"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-13",
@@ -1062,7 +1169,8 @@
           "Advanced reporting"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-14",
@@ -1142,7 +1250,8 @@
           "Custom modules"
         ]
       }
-    ]
+    ],
+    "category": "App"
   },
   {
     "id": "our-15",
@@ -1221,6 +1330,59 @@
           "Everything in Standard",
           "Advanced financial analytics",
           "Priority support"
+        ]
+      }
+    ],
+    "category": "App"
+  },
+  {
+    "id": "our-web-1",
+    "slug": "corporate-modern-website",
+    "type": "our",
+    "category": "Website",
+    "title": "Corporate Modern Website",
+    "description": "Fast and responsive static website for a corporate business with a modern design.",
+    "industry": "Corporate",
+    "technologies": [
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+    "overview": "A pristine static website for showcasing company services, team, and portfolio.",
+    "features": [
+      "SEO Optimized",
+      "Fast Loading",
+      "Responsive Design",
+      "Contact Form Integration"
+    ],
+    "targetUsers": [
+      "Businesses",
+      "Agencies"
+    ],
+    "timeline": "Estimated 2-3 weeks",
+    "screenshots": [],
+    "plans": [
+      {
+        "name": "Single Page",
+        "price": "₹9,999",
+        "deliveryTime": "1 week",
+        "supportDuration": "1 month",
+        "features": [
+          "Hero Section",
+          "About Us",
+          "Services",
+          "Contact"
+        ]
+      },
+      {
+        "name": "Multi Page",
+        "price": "₹19,999",
+        "deliveryTime": "2-3 weeks",
+        "supportDuration": "3 months",
+        "features": [
+          "Multiple Pages",
+          "CMS Integration",
+          "Advanced Animations"
         ]
       }
     ]

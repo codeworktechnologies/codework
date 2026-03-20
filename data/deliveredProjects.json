@@ -3,6 +3,7 @@
     "id": "del-1",
     "slug": "clinicpro-medical-management-system",
     "type": "delivered",
+    "demo_link": "https://clinicpro-medical-management-system.vercel.app/",
     "title": "ClinicPro – Medical Management & Billing System",
     "description": "Flask-based medical store and clinic management system with inventory, billing, and reporting.",
     "clientIndustry": "Healthcare & Pharmacy",
@@ -59,7 +60,8 @@
       }
     ],
     "startDate": "2025-11-19",
-    "endDate": "2026-01-28"
+    "endDate": "2026-01-28",
+    "category": "App"
   },
   {
     "id": "del-2",
@@ -122,7 +124,8 @@
       }
     ],
     "startDate": "2025-10-30",
-    "endDate": "2026-02-05"
+    "endDate": "2026-02-05",
+    "category": "App"
   },
   {
     "id": "del-3",
@@ -176,7 +179,8 @@
       }
     ],
     "startDate": "2025-08-12",
-    "endDate": "2025-11-18"
+    "endDate": "2025-11-18",
+    "category": "App"
   },
   {
     "id": "del-4",
@@ -229,7 +233,8 @@
       }
     ],
     "startDate": "2025-04-17",
-    "endDate": "2025-08-07"
+    "endDate": "2025-08-07",
+    "category": "App"
   },
   {
     "id": "del-5",
@@ -292,7 +297,8 @@
       }
     ],
     "startDate": "2025-10-26",
-    "endDate": "2026-02-15"
+    "endDate": "2026-02-15",
+    "category": "App"
   },
   {
     "id": "del-6",
@@ -345,6 +351,41 @@
       }
     ],
     "startDate": "2025-02-27",
-    "endDate": "2025-05-22"
+    "endDate": "2025-05-22",
+    "category": "App"
+  },
+  {
+    "id": "del-web-1",
+    "slug": "green-energy-landing-page",
+    "type": "delivered",
+    "category": "Website",
+    "title": "Green Energy Landing Page",
+    "description": "Impactful static landing page for an environmental campaign.",
+    "clientIndustry": "Environment",
+    "status": "Delivered",
+    "overview": "A marketing landing page designed to capture leads and spread awareness about green energy solutions.",
+    "clientType": "NGO / Campaign",
+    "finalFeatures": [
+      "Optimized Conversion Rate",
+      "Accessible Design",
+      "Lead Capture Form"
+    ],
+    "technologies": [
+      "HTML5",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "projectDuration": "2 weeks",
+    "deliveryTimeline": [
+      "Design (1 week)",
+      "Development and Testing (1 week)"
+    ],
+    "challengesAndSolutions": [
+      "Challenge: Fast loading required. Solution: Pre-optimized assets and minimal JS."
+    ],
+    "clientFeedback": "Incredibly fast and beautifully designed.",
+    "screenshots": [],
+    "startDate": "2026-01-10",
+    "endDate": "2026-01-24"
   }
 ]

@@ -9,6 +9,7 @@ export default function ProjectTabs({ ourProjects, deliveredProjects }) {
   const [activeTab, setActiveTab] = useState("our");
   const [search, setSearch] = useState("");
   const [industry, setIndustry] = useState("All");
+  const [category, setCategory] = useState("All");
 
   const currentList = activeTab === "our" ? ourProjects : deliveredProjects;
 
@@ -23,7 +24,9 @@ export default function ProjectTabs({ ourProjects, deliveredProjects }) {
     const matchSearch = lookup.includes(search.toLowerCase());
     const matchIndustry =
       industry === "All" || industry === (item.industry ?? item.clientIndustry ?? "");
-    return matchSearch && matchIndustry;
+    const matchCategory =
+      category === "All" || category === item.category;
+    return matchSearch && matchIndustry && matchCategory;
   });
 
   return (
@@ -49,6 +52,22 @@ export default function ProjectTabs({ ourProjects, deliveredProjects }) {
         >
           Our Clients Projects
         </button>
+      </div>
+
+      <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+        {["All", "Website", "App"].map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setCategory(cat)}
+            className={`rounded-full px-5 py-1.5 text-sm font-medium transition border ${
+              category === cat
+                ? "bg-slate-800 text-white border-slate-800 dark:bg-slate-200 dark:text-slate-900 dark:border-slate-200"
+                : "bg-transparent text-slate-700 border-slate-300 hover:bg-slate-100 dark:text-slate-300 dark:border-slate-700 dark:hover:bg-slate-800"
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
       </div>
 
       <div className="mt-6 grid gap-3 md:grid-cols-[1fr,220px]">

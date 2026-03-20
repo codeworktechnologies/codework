@@ -22,9 +22,16 @@ export default function ProjectCard({ project }) {
         ))}
       </div>
 
-      <Link href={`/projects/${project?.slug ?? "projects"}`} className="button-primary mt-6 w-full">
-        View Details
-      </Link>
+      <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+        <Link href={`/projects/${project?.slug ?? "projects"}`} className="button-primary w-full text-center sm:flex-1">
+          View Details
+        </Link>
+        {project?.demo_link && (
+          <Link href={project.demo_link} target="_blank" rel="noopener noreferrer" className="button-secondary w-full text-center sm:flex-1">
+            View Demo
+          </Link>
+        )}
+      </div>
     </article>
   );
 }
