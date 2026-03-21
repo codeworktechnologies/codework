@@ -48,7 +48,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹1,999",
         "deliveryTime": "4 weeks",
         "supportDuration": "1 month",
@@ -61,12 +61,12 @@
         "demoLink": "https://codeworktechnologies.github.io/Basic-Salon/"
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹3,999",
         "deliveryTime": "8 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Advanced appointment scheduling",
           "Staff management",
           "Service & pricing customization",
@@ -75,12 +75,12 @@
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹6,499",
         "deliveryTime": "12 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced analytics dashboard",
           "Customer loyalty & offers system",
           "Multi-branch management",
@@ -90,7 +90,7 @@
         "demoLink": "https://example.com/salonflow-demo"
       }
     ],
-    "category": "App"
+    "category": "SaaS App"
   },
   {
     "id": "our-1",
@@ -139,7 +139,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹1,999",
         "deliveryTime": "4 weeks",
         "supportDuration": "1 month",
@@ -150,24 +150,24 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹3,999",
         "deliveryTime": "8 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Attendance and exam modules",
           "Fee management and notifications",
           "Role-based access"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹6,499",
         "deliveryTime": "12 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Parent mobile-ready portal",
           "Advanced analytics",
           "Custom integrations"
@@ -175,7 +175,7 @@
         "demoLink": "https://example.com/eduflow-demo"
       }
     ],
-    "category": "App"
+    "category": "SaaS App"
   },
   {
     "id": "our-2",
@@ -224,7 +224,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹1,499",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -235,12 +235,12 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹2,999",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Vendor management",
           "Inventory alerts",
           "Payment flow integration"
@@ -248,19 +248,19 @@
         "demoLink": "https://example.com/retailhub-demo"
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹4,999",
         "deliveryTime": "10 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced promotions",
           "Business intelligence reports",
           "Priority support"
         ]
       }
     ],
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "our-3",
@@ -308,7 +308,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹1,299",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -319,24 +319,24 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹2,799",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Geo-checkins",
           "Checklist automation",
           "Supervisor dashboard"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹4,599",
         "deliveryTime": "9 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Deep analytics",
           "Role-based workflows",
           "API integrations"
@@ -391,7 +391,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹999",
         "deliveryTime": "2 weeks",
         "supportDuration": "1 month",
@@ -402,31 +402,31 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹2,199",
         "deliveryTime": "5 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Automation reminders",
           "Team activity reports",
           "Custom fields"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹3,999",
         "deliveryTime": "8 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced analytics",
           "Workflow customization",
           "Priority enhancements"
         ]
       }
     ],
-    "category": "App"
+    "category": "SaaS App"
   },
   {
     "id": "our-5",
@@ -475,7 +475,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹49,000",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -486,31 +486,31 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹89,000",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Fees",
           "Exams and Results",
           "Parent notifications"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹1,39,000",
         "deliveryTime": "9 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced reporting",
           "Custom workflows",
           "Priority support"
         ]
       }
     ],
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "our-6",
@@ -559,7 +559,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹44,000",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -570,29 +570,29 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹84,000",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Certification module",
           "Performance dashboard"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹1,29,000",
         "deliveryTime": "9 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Automated reminders",
           "Advanced analytics"
         ]
       }
     ],
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "our-7",
@@ -641,7 +641,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹59,000",
         "deliveryTime": "4 weeks",
         "supportDuration": "1 month",
@@ -652,29 +652,29 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹99,000",
         "deliveryTime": "7 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Advanced inventory",
           "Sales reports"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹1,49,000",
         "deliveryTime": "11 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Custom reports",
           "Integration support"
         ]
       }
     ],
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "our-8",
@@ -721,7 +721,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹29,000",
         "deliveryTime": "2 weeks",
         "supportDuration": "1 month",
@@ -732,29 +732,29 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹54,000",
         "deliveryTime": "5 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Performance reports",
           "Parent alerts"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹79,000",
         "deliveryTime": "7 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Custom grading workflows",
           "Priority support"
         ]
       }
     ],
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "our-9",
@@ -802,7 +802,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹39,000",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -813,29 +813,29 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹72,000",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Payroll basics",
           "Offer management"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹1,09,000",
         "deliveryTime": "8 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Workflow automation",
           "Audit-ready reports"
         ]
       }
     ],
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "our-10",
@@ -884,7 +884,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹34,000",
         "deliveryTime": "2 weeks",
         "supportDuration": "1 month",
@@ -895,23 +895,23 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹64,000",
         "deliveryTime": "5 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Inventory control",
           "Supplier ledger"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹94,000",
         "deliveryTime": "8 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced analytics",
           "Multi-store support"
         ]
@@ -965,7 +965,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹32,000",
         "deliveryTime": "2 weeks",
         "supportDuration": "1 month",
@@ -976,23 +976,23 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹59,000",
         "deliveryTime": "5 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Kitchen workflows",
           "Menu controls"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹89,000",
         "deliveryTime": "7 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced analytics",
           "Custom roles"
         ]
@@ -1054,7 +1054,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹55,000",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -1065,24 +1065,24 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹95,000",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Doctor scheduling",
           "Pharmacy module",
           "Advanced billing"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹1,45,000",
         "deliveryTime": "8 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced analytics",
           "Multi-branch support",
           "Custom role permissions"
@@ -1137,7 +1137,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹45,000",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -1148,23 +1148,23 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹79,000",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Agreements",
           "Payment tracker"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹1,19,000",
         "deliveryTime": "9 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Automation workflows",
           "Advanced reporting"
         ]
@@ -1218,7 +1218,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹24,000",
         "deliveryTime": "2 weeks",
         "supportDuration": "1 month",
@@ -1229,23 +1229,23 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹44,000",
         "deliveryTime": "4 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "Renewal reminders",
           "Trainer mapping"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹69,000",
         "deliveryTime": "6 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced reports",
           "Custom modules"
         ]
@@ -1300,7 +1300,7 @@
     ],
     "plans": [
       {
-        "name": "Basic",
+        "name": "Starter",
         "price": "₹39,000",
         "deliveryTime": "3 weeks",
         "supportDuration": "1 month",
@@ -1311,23 +1311,23 @@
         ]
       },
       {
-        "name": "Standard",
+        "name": "Professional",
         "price": "₹69,000",
         "deliveryTime": "6 weeks",
         "supportDuration": "3 months",
         "features": [
-          "Everything in Basic",
+          "Everything in Starter",
           "GST summaries",
           "Invoice workflows"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Premium Custom",
         "price": "₹1,04,000",
         "deliveryTime": "8 weeks",
         "supportDuration": "6 months",
         "features": [
-          "Everything in Standard",
+          "Everything in Professional",
           "Advanced financial analytics",
           "Priority support"
         ]
@@ -1337,18 +1337,20 @@
   },
   {
     "id": "our-web-1",
-    "slug": "corporate-modern-website",
+    "slug": "basic-clinic",
     "type": "our",
     "category": "Website",
-    "title": "Corporate Modern Website",
-    "description": "Fast and responsive static website for a corporate business with a modern design.",
-    "industry": "Corporate",
+    "demo_link": "https://codeworktechnologies.github.io/Basic-Clinic/",
+    "title": "Basic Clinic Website",
+    "description": "Fast and responsive static website for a clinic business with a modern design.",
+    "industry": "Clinic",
     "technologies": [
-      "Next.js",
-      "Tailwind CSS",
-      "Framer Motion"
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
     ],
-    "overview": "A pristine static website for showcasing company services, team, and portfolio.",
+    "overview": "A pristine static website for showcasing clinic services, team, and portfolio.",
     "features": [
       "SEO Optimized",
       "Fast Loading",
@@ -1356,35 +1358,130 @@
       "Contact Form Integration"
     ],
     "targetUsers": [
-      "Businesses",
-      "Agencies"
+      "Clinic",
+      "Medical"
     ],
     "timeline": "Estimated 2-3 weeks",
-    "screenshots": [],
-    "plans": [
-      {
-        "name": "Single Page",
-        "price": "₹9,999",
-        "deliveryTime": "1 week",
-        "supportDuration": "1 month",
-        "features": [
-          "Hero Section",
-          "About Us",
-          "Services",
-          "Contact"
-        ]
-      },
-      {
-        "name": "Multi Page",
-        "price": "₹19,999",
-        "deliveryTime": "2-3 weeks",
-        "supportDuration": "3 months",
-        "features": [
-          "Multiple Pages",
-          "CMS Integration",
-          "Advanced Animations"
-        ]
-      }
-    ]
+    "screenshots": []
+  },
+  {
+    "id": "our-web-2",
+    "slug": "basic-gym",
+    "type": "our",
+    "category": "Website",
+    "demo_link": "https://codeworktechnologies.github.io/Basic-GYM/",
+    "title": "Basic GYM Website",
+    "description": "Fast and responsive static website for a GYM business with a modern design.",
+    "industry": "GYM",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "overview": "A pristine static website for showcasing GYM services, team, and portfolio.",
+    "features": [
+      "SEO Optimized",
+      "Fast Loading",
+      "Responsive Design",
+      "Contact Form Integration"
+    ],
+    "targetUsers": [
+      "GYM",
+      "Fitness",
+      "Health"
+    ],
+    "timeline": "Estimated 2-3 weeks",
+    "screenshots": []
+  },
+  {
+    "id": "our-web-3",
+    "slug": "Basic-Salon",
+    "type": "our",
+    "category": "Website",
+    "title": "Basic Salon Website",
+    "demo_link": "https://codeworktechnologies.github.io/Basic-Salon/",
+    "description": "Fast and responsive static website for a Salon business with a modern design.",
+    "industry": "Salon",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "overview": "A pristine static website for showcasing Salon services, team, and portfolio.",
+    "features": [
+      "SEO Optimized",
+      "Fast Loading",
+      "Responsive Design",
+      "Contact Form Integration"
+    ],
+    "targetUsers": [
+      "Salon",
+      "Beauty",
+      "Health"
+    ],
+    "timeline": "Estimated 2-3 weeks",
+    "screenshots": []
+  },
+  {
+    "id": "our-web-4",
+    "slug": "Basic-Photography",
+    "type": "our",
+    "category": "Website",
+    "title": "Basic Photography Website",
+    "demo_link": "https://codeworktechnologies.github.io/Basic-Photography/",
+    "description": "Fast and responsive static website for a Photography business with a modern design.",
+    "industry": "Photography",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "overview": "A pristine static website for showcasing Photography services, team, and portfolio.",
+    "features": [
+      "SEO Optimized",
+      "Fast Loading",
+      "Responsive Design",
+      "Contact Form Integration"
+    ],
+    "targetUsers": [
+      "Photography",
+      "Beauty",
+      "Health"
+    ],
+    "timeline": "Estimated 2-3 weeks",
+    "screenshots": []
+  },
+  {
+    "id": "our-web-5",
+    "slug": "Basic-Mobile",
+    "type": "our",
+    "category": "Website",
+    "title": "Basic Mobile Website",
+    "demo_link": "https://codeworktechnologies.github.io/Basic-Mobile/",
+    "description": "Fast and responsive static website for a Mobile business with a modern design.",
+    "industry": "Mobile",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "overview": "A pristine static website for showcasing Mobile services, team, and portfolio.",
+    "features": [
+      "SEO Optimized",
+      "Fast Loading",
+      "Responsive Design",
+      "Contact Form Integration"
+    ],
+    "targetUsers": [
+      "Mobile",
+      "Beauty",
+      "Health"
+    ],
+    "timeline": "Estimated 2-3 weeks",
+    "screenshots": []
   }
 ]

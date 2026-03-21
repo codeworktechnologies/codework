@@ -8,7 +8,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export default function ProjectTabs({ ourProjects, deliveredProjects }) {
   const [activeTab, setActiveTab] = useState("our");
   const [search, setSearch] = useState("");
-  const [industry, setIndustry] = useState("All");
+  const [industry, setIndustry] = useState("Select Industry");
   const [category, setCategory] = useState("All");
 
   const currentList = activeTab === "our" ? ourProjects : deliveredProjects;
@@ -16,14 +16,14 @@ export default function ProjectTabs({ ourProjects, deliveredProjects }) {
   const industryOptions = useMemo(() => {
     const source = activeTab === "our" ? ourProjects : deliveredProjects;
     const key = activeTab === "our" ? "industry" : "clientIndustry";
-    return ["All", ...new Set(source.map((item) => item[key]))];
+    return ["Select Industry", ...new Set(source.map((item) => item[key]))];
   }, [activeTab, ourProjects, deliveredProjects]);
 
   const filtered = currentList.filter((item) => {
     const lookup = `${item.title} ${item.description} ${item.industry ?? ""} ${item.clientIndustry ?? ""}`.toLowerCase();
     const matchSearch = lookup.includes(search.toLowerCase());
     const matchIndustry =
-      industry === "All" || industry === (item.industry ?? item.clientIndustry ?? "");
+      industry === "Select Industry" || industry === (item.industry ?? item.clientIndustry ?? "");
     const matchCategory =
       category === "All" || category === item.category;
     return matchSearch && matchIndustry && matchCategory;
@@ -34,9 +34,8 @@ export default function ProjectTabs({ ourProjects, deliveredProjects }) {
       <div className="mx-auto flex w-fit items-center gap-2 rounded-full border border-slate-300 bg-white/80 p-1 dark:border-slate-700 dark:bg-slate-900/60">
         <button
           type="button"
-          className={`rounded-full px-5 py-2 text-sm font-semibold transition ${
-            activeTab === "our" ? "bg-blue-600 text-white dark:bg-sky-500" : "text-slate-700 dark:text-slate-300"
-          }`}
+          className={`rounded-full px-5 py-2 text-sm font-semibold transition ${activeTab === "our" ? "bg-blue-600 text-white dark:bg-sky-500" : "text-slate-700 dark:text-slate-300"
+            }`}
           onClick={() => setActiveTab("our")}
           aria-pressed={activeTab === "our"}
         >
@@ -44,9 +43,8 @@ export default function ProjectTabs({ ourProjects, deliveredProjects }) {
         </button>
         <button
           type="button"
-          className={`rounded-full px-5 py-2 text-sm font-semibold transition ${
-            activeTab === "delivered" ? "bg-blue-600 text-white dark:bg-sky-500" : "text-slate-700 dark:text-slate-300"
-          }`}
+          className={`rounded-full px-5 py-2 text-sm font-semibold transition ${activeTab === "delivered" ? "bg-blue-600 text-white dark:bg-sky-500" : "text-slate-700 dark:text-slate-300"
+            }`}
           onClick={() => setActiveTab("delivered")}
           aria-pressed={activeTab === "delivered"}
         >
@@ -55,15 +53,14 @@ export default function ProjectTabs({ ourProjects, deliveredProjects }) {
       </div>
 
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-        {["All", "Website", "App"].map((cat) => (
+        {["All", "Website", "App", "Web App", "SaaS App"].map((cat) => (
           <button
             key={cat}
             onClick={() => setCategory(cat)}
-            className={`rounded-full px-5 py-1.5 text-sm font-medium transition border ${
-              category === cat
-                ? "bg-slate-800 text-white border-slate-800 dark:bg-slate-200 dark:text-slate-900 dark:border-slate-200"
-                : "bg-transparent text-slate-700 border-slate-300 hover:bg-slate-100 dark:text-slate-300 dark:border-slate-700 dark:hover:bg-slate-800"
-            }`}
+            className={`rounded-full px-5 py-1.5 text-sm font-medium transition border ${category === cat
+              ? "bg-slate-800 text-white border-slate-800 dark:bg-slate-200 dark:text-slate-900 dark:border-slate-200"
+              : "bg-transparent text-slate-700 border-slate-300 hover:bg-slate-100 dark:text-slate-300 dark:border-slate-700 dark:hover:bg-slate-800"
+              }`}
           >
             {cat}
           </button>

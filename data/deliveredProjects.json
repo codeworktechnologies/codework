@@ -125,7 +125,7 @@
     ],
     "startDate": "2025-10-30",
     "endDate": "2026-02-05",
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "del-3",
@@ -180,7 +180,7 @@
     ],
     "startDate": "2025-08-12",
     "endDate": "2025-11-18",
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "del-4",
@@ -234,7 +234,7 @@
     ],
     "startDate": "2025-04-17",
     "endDate": "2025-08-07",
-    "category": "App"
+    "category": "Web App"
   },
   {
     "id": "del-5",
@@ -298,7 +298,7 @@
     ],
     "startDate": "2025-10-26",
     "endDate": "2026-02-15",
-    "category": "App"
+    "category": "SaaS App"
   },
   {
     "id": "del-6",
@@ -352,7 +352,7 @@
     ],
     "startDate": "2025-02-27",
     "endDate": "2025-05-22",
-    "category": "App"
+    "category": "SaaS App"
   },
   {
     "id": "del-web-1",

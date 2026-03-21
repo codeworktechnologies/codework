@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import PricingPlanCard from "@/components/PricingPlanCard";
 import ShareProjectButton from "@/components/ShareProjectButton";
 import TechIcon from "@/components/TechIcon";
@@ -46,6 +47,7 @@ function getScreenshotData(item, index) {
 }
 
 export default function ProjectDetails({ project }) {
+  const router = useRouter();
   const [activeScreenshot, setActiveScreenshot] = useState(null);
   const isClientProject = project.type === "delivered";
   const status = (project?.status || "In Progress").trim();
@@ -87,6 +89,15 @@ export default function ProjectDetails({ project }) {
     <section className="section-space">
       <div className="container-base grid gap-8 lg:grid-cols-[1fr,320px]">
         <div className="space-y-8">
+          <button
+            onClick={() => router.back()}
+            className="group mb-[-0.5rem] inline-flex items-center gap-2 text-sm font-semibold text-slate-600 transition hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-400"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5 transition group-hover:-translate-x-1">
+              <path fillRule="evenodd" d="M17 10a.75.75 0 01-.75.75H5.612l4.158 3.96a.75.75 0 11-1.04 1.08l-5.5-5.25a.75.75 0 010-1.08l5.5-5.25a.75.75 0 111.04 1.08L5.612 9.25H16.25A.75.75 0 0117 10z" clipRule="evenodd" />
+            </svg>
+            Go Back
+          </button>
           <article className="gradient-border card-surface rounded-3xl p-7 md:p-8">
             {isClientProject && (
               <p
@@ -221,40 +232,44 @@ export default function ProjectDetails({ project }) {
                 </article>
               </div>
 
-              <article className="card-surface rounded-2xl p-6">
-                <h2 className="text-xl font-semibold text-slate-900 dark:text-white">Pricing Plans</h2>
-                <div className="mt-5 grid gap-5 md:grid-cols-3">
-                  {plans.map((plan) => (
-                    <PricingPlanCard key={plan.name} plan={plan} highlighted={plan.name === "Standard"} />
-                  ))}
-                </div>
-              </article>
+              {plans.length > 0 && (
+                <article className="card-surface rounded-2xl p-6">
+                  <h2 className="text-xl font-semibold text-slate-900 dark:text-white">Pricing Plans</h2>
+                  <div className="mt-5 grid gap-5 md:grid-cols-3">
+                    {plans.map((plan) => (
+                      <PricingPlanCard key={plan.name} plan={plan} highlighted={plan.name === "Standard"} />
+                    ))}
+                  </div>
+                </article>
+              )}
             </>
           )}
 
-          <article className="card-surface rounded-2xl p-6">
-            <h2 className="text-xl font-semibold text-slate-900 dark:text-white">Screenshots</h2>
-            <div className="mt-5 grid gap-4 md:grid-cols-3">
-              {screenshotItems.map((screenshot) => (
-                <button
-                  key={screenshot.id}
-                  type="button"
-                  onClick={() => setActiveScreenshot(screenshot)}
-                  className="group rounded-xl border border-slate-300 p-3 text-left transition hover:-translate-y-1 hover:shadow-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 dark:border-slate-700 dark:focus-visible:ring-sky-500"
-                >
-                  <div className="overflow-hidden rounded-lg border border-slate-200/80 dark:border-slate-700/80">
-                    <img
-                      src={screenshot.src}
-                      alt={screenshot.caption}
-                      className="h-40 w-full object-cover transition duration-300 group-hover:scale-[1.02]"
-                      loading="lazy"
-                    />
-                  </div>
-                  <p className="mt-2 text-xs font-medium text-slate-600 dark:text-slate-300">{screenshot.caption}</p>
-                </button>
-              ))}
-            </div>
-          </article>
+          {screenshotItems.length > 0 && (
+            <article className="card-surface rounded-2xl p-6">
+              <h2 className="text-xl font-semibold text-slate-900 dark:text-white">Screenshots</h2>
+              <div className="mt-5 grid gap-4 md:grid-cols-3">
+                {screenshotItems.map((screenshot) => (
+                  <button
+                    key={screenshot.id}
+                    type="button"
+                    onClick={() => setActiveScreenshot(screenshot)}
+                    className="group rounded-xl border border-slate-300 p-3 text-left transition hover:-translate-y-1 hover:shadow-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 dark:border-slate-700 dark:focus-visible:ring-sky-500"
+                  >
+                    <div className="overflow-hidden rounded-lg border border-slate-200/80 dark:border-slate-700/80">
+                      <img
+                        src={screenshot.src}
+                        alt={screenshot.caption}
+                        className="h-40 w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                        loading="lazy"
+                      />
+                    </div>
+                    <p className="mt-2 text-xs font-medium text-slate-600 dark:text-slate-300">{screenshot.caption}</p>
+                  </button>
+                ))}
+              </div>
+            </article>
+          )}
         </div>
 
         <aside className="lg:sticky lg:top-24 lg:h-fit">
